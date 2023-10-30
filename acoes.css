@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ancora_menu{
+    color: #181E27;
+}
+
+.ancora_menu:hover{
+    color:#64aec2;
+}
+.menu{
+    display: flex;
+    gap: 1.25rem;
+    color:#181E27;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.cabecalho_img{
+    width: 6.125rem;
+    height: 4.25rem;
+}
+
+.rodape{
+    color: #f1e1b2;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3b1105;
+    height: 2.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 0.75rem;
+}
+#link_insta{
+    color: #f1e1b2;
+}
+#botao_topo{
+    color: #f1e1b2;
+    background-color: #3b1105;
+    border-radius: 60%;
+    padding: 0.6rem;
+    font-size: 1rem;
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+    box-shadow: 0rem 0rem 0.4rem #181E27;
+}
+
+.conteudo_titulo{
+    background-color: #3b1105;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #f1e1b2;
+}
+.navegacao_titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.ancora{
+    color:#3b1105;
+    background-color: #f1e1b2;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.ancora:hover{
+    font-size: 1.1rem;
+    color: #181E27;
+    cursor: pointer;
+}
+
+.ancoras{
+    display: flex;
+    gap: 2rem;
+}
+
+.imagem_titulo{
+    width: 20%;
+    height: 20%;
+}
+
+.espacamento{
+    padding: 18px;
+}
+
+.reunioes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.reuniao_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reuniao_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.subtitulo1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+}
+
+.subtitulo2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    padding-top: 7rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.encontros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.imagens_encontros{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.semana1{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.semana2{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.semana3{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.semana_consciencia_negra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imagens_semana{
+    border: 0.1rem solid #3b1105;
+    border-radius: 0.5rem;
+}
+.imagem_enc{
+    border: 0.1rem solid #3b1105;
+    border-radius: 0.5rem;
+}
+
+.imagens_reunioes{
+    border: 0.1rem solid #3b1105;
+    border-radius: 0.5rem;
+}
